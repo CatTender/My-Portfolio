@@ -102,7 +102,7 @@ body {
 .right-block {
   width: 794px;
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .photo {
@@ -246,10 +246,9 @@ body {
 .d-td {
   display: table-cell;
   min-width: 130px;
-  /* max-width: 400px; */
   text-align: left;
   border: none;
-  /* border: 1px solid #ccc; */
+  border: 1px solid #ccc;
   vertical-align: middle;
   line-height: 1.5em;
 }
