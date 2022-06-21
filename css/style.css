@@ -1,0 +1,260 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.main-block {
+  display: flex;
+  justify-content: flex-start;
+  width: 1300px;
+  border: 1px solid lightgray;
+  margin: 50px 50px;
+}
+
+.left-block {
+  min-width: 506px;
+  color: #ffffff;
+  background-color: #2c323d;
+}
+
+.right-block {
+  width: 794px;
+  position: relative;
+  border: 1px solid red;
+}
+
+.photo {
+  height: 706px;
+  background-image: url(../img/Igor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 79%;
+  background-color: #424753;
+}
+.contact {
+  background-color: #343945;
+  padding: 77px 0;
+}
+.education {
+  background-color: #2c323d;
+  padding: 77px 0;
+}
+
+#education {
+  padding-top: 52px;
+}
+
+.yellow-gray-left {
+  height: 48px;
+  background-color: #424753;
+  padding: 8px 72px;
+  border-left: 37px solid #f2c100;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 2.5px;
+}
+.yellow-gray-right {
+  height: 48px;
+  width: auto;
+  background-color: #ebebeb;
+  padding: 8px 57px;
+  margin-top: 72px;
+  border-left: 19px solid #f2c100;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 2.5px;
+  /* border: 1px solid red; */
+}
+
+.item-bold-left {
+  margin: 0 107px;
+  padding-top: 52px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.item-regular-left {
+  margin: 0 107px;
+  line-height: 34px;
+}
+
+.item-bold-right {
+  padding-top: 28px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+}
+.item-regular-right {
+  padding-top: 28px;
+  padding-right: 76px;
+  line-height: 34px;
+  text-align: justify;
+  /* border: 1px solid red; */
+}
+.person {
+  font-weight: 500;
+  margin-top: 174px;
+  margin-left: 76px;
+  margin-bottom: 174px;
+  /* border: 1px solid red; */
+}
+.person-name {
+  font-size: 84px;
+  line-height: 88px;
+}
+.person-job {
+  font-size: 37px;
+  line-height: 79px;
+  letter-spacing: 3.7px;
+}
+.profile {
+  /* margin-top: 305px; */
+  /* border: 1px solid red; */
+}
+.profile-text {
+  margin: 48px 76px 0;
+  line-height: 38px;
+  text-align: justify;
+}
+
+.experience {
+  display: flex;
+  justify-content: start;
+  /* margin-top: 162px; */
+  /* border: 1px solid red; */
+}
+.experience-left-block {
+  /* border: 1px solid red; */
+  min-width: 300px;
+  padding-left: 76px;
+  font-size: 19px;
+}
+.experience-right-block {
+  /* border: 1px solid red; */
+  /* min-width: 551px; */
+}
+
+#experience {
+  padding-top: 0;
+}
+
+.skills {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: start;
+  /* width: 300px; */
+}
+.skill-marker {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-table {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 76px;
+}
+.d-table {
+  display: table;
+}
+.d-tr {
+  display: table-row;
+}
+.d-td {
+  display: table-cell;
+  min-width: 130px;
+  /* max-width: 400px; */
+  text-align: left;
+  border: none;
+  /* border: 1px solid #ccc; */
+  vertical-align: middle;
+  line-height: 1.5em;
+}
+
+.oval {
+  width: 24px;
+  height: 23px;
+}
