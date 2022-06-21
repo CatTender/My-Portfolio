@@ -248,7 +248,7 @@ body {
   min-width: 130px;
   text-align: left;
   border: none;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   vertical-align: middle;
   line-height: 1.5em;
 }
