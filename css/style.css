@@ -88,6 +88,7 @@ body {
 .main-block {
   display: flex;
   justify-content: flex-start;
+  justify-items: stretch;
   width: 1300px;
   border: 1px solid lightgray;
   margin: 50px 50px;
@@ -100,7 +101,7 @@ body {
 }
 
 .right-block {
-  width: 794px;
+  /* width: 794px; */
   position: relative;
   /* border: 1px solid red; */
 }
@@ -248,7 +249,6 @@ body {
   min-width: 130px;
   text-align: left;
   border: none;
-  border: 1px solid #ccc;
   vertical-align: middle;
   line-height: 1.5em;
 }
